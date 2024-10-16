@@ -1,0 +1,24 @@
+{
+  "files.associations": {
+    "*.sicpackage": "json"
+  },
+  "json.schemas": [
+    {
+      "fileMatch": ["/sitecore.json"],
+      "url": "./.sitecore/schemas/RootConfigurationFile.schema.json"
+    },
+    {
+      "fileMatch": ["/.sitecore/user.json"],
+      "url": "./.sitecore/schemas/UserConfiguration.schema.json"
+    },
+    {
+      "fileMatch": ["*.module.json"],
+      "url": "./.sitecore/schemas/ModuleFile.schema.json"
+    }
+  ],
+  "workbench.colorCustomizations": {
+    "activityBar.background": "#003335",
+    "titleBar.activeBackground": "#00484A",
+    "titleBar.activeForeground": "#E8FEFF"
+  }
+}
